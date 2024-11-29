@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Pole tekstowe do minimalnej liczby -->
+    <EditText
+        android:id="@+id/minValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minimalna liczba"
+        android:inputType="number"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Pole tekstowe do maksymalnej liczby -->
+    <EditText
+        android:id="@+id/maxValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Maksymalna liczba"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Przycisk do losowania -->
+    <Button
+        android:id="@+id/buttonGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Losuj"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tekst do wyświetlania wyniku -->
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+</LinearLayout>
